@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+    background: linear-gradient(green, white);  
+    color: bisque; 
+    margin: 0px;
+    border: 5px solid rgb(247, 243, 243)
+
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trb-img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+ 
+#presidents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("images/aso1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.pre-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#major-cities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("images/9ija2.jpg");
+    background-size: cover;
+}
+
+.city-img {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    color: rgb(56, 52, 40);
+    background-color: cadetblue;
+    width: 500px;
+    height: 250px;
+    border-bottom: 8px solid grey;
+    border-radius: 10px;
+}
+
+#tour-img {
+    width: 150px;
+    height: 200px;
+    margin: 0px 10px 0px 20px;
+    border-radius: 5px;
+}
+
+#footer-msg {
+    padding: 0px 20px 0px 20px;
+}
+
+#cities, #leaders, #trb, #heading{
+    margin-top: 50px;
+    color: rgb(56, 52, 40);
+}
